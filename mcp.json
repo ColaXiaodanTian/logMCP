@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kubernetes-log-agent": {
+      "command": "uv",
+      "args": ["run", "python", "-m", "src.server"],
+      "cwd": "/Users/jianisong/Projects/logMCP"
+    }
+  }
+}

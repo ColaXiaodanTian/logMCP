@@ -1,0 +1,18 @@
+[project]
+name = "logmcp"
+version = "0.1.0"
+description = "Kubernetes log analysis MCP server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.22.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
